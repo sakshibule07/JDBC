@@ -18,7 +18,7 @@ public class StatementEx {
 			con = DriverManager.getConnection("jdbc:mysql://localhost/morning","root","root12345");
 			
 			stmt = con.createStatement();
-			  stmt.execute("CREATE TABLE Employee(id INT PRIMARY KEY, name VARCHAR(20), position VARCHAR(20))");
+			stmt.execute("CREATE TABLE Employee(id INT PRIMARY KEY, name VARCHAR(20), position VARCHAR(20))");
 			System.out.println("Table done");
 		}
 		catch(SQLException e) {
