@@ -19,7 +19,7 @@ public class StatementEx {
 			
 			stmt = con.createStatement();
 			stmt.execute("CREATE TABLE Employee(id INT PRIMARY KEY, name VARCHAR(20), position VARCHAR(20))");
-			System.out.println("Table done");
+			 System.out.println("Table done");
 		}
 		catch(SQLException e) {
 			e.printStackTrace();
